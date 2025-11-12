@@ -2,8 +2,8 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { AppProvider } from '@/contexts/AppContext';
-import { AuthNavigator } from '@/navigation/AuthNavigator';
-import { MainNavigator } from '@/navigation/MainNavigator';
+import AuthNavigator from '@/navigation/AuthNavigator';
+import MainNavigator from '@/navigation/MainNavigator';
 import { useAuth } from '@/hooks/useAuth';
 
 const AppContent = () => {
