@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { RealtimeChannel } from '@supabase/supabase-js';
 import { Message, MessageWithSender } from '@/types/database';
 import { MessagingService } from '@/services/messagingService';
+import supabase from '@/supabase/client';
 
 export const useMessages = (chatId: string) => {
   const [messages, setMessages] = useState<MessageWithSender[]>([]);
