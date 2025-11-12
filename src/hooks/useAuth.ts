@@ -50,7 +50,10 @@ export const useAuth = () => {
           throw profileError;
         }
 
-        Alert.success('Account created successfully! Please check your email to verify your account.');
+        Alert.alert(
+          'Account Created',
+          'Account created successfully! Please check your email to verify your account.'
+        );
         return true;
       }
 
