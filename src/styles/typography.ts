@@ -52,7 +52,7 @@ export const typography = {
     // Headings
     h1: {
       fontSize: 36,
-      fontWeight: 'bold' as const,
+      fontWeight: '700' as const,
       lineHeight: 44,
       letterSpacing: -0.5,
       color: '#ffffff',
@@ -60,7 +60,7 @@ export const typography = {
 
     h2: {
       fontSize: 30,
-      fontWeight: 'bold' as const,
+      fontWeight: '700' as const,
       lineHeight: 36,
       letterSpacing: -0.5,
       color: '#ffffff',
