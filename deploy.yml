@@ -20,9 +20,9 @@ jobs:
         env:
           CI: true
       - name: Deploy to production
-        uses: bishalchoudhurywork-cyber/deploy-to-github-pages-action@master
+        uses: bishalchoudhury-2002/deploy-to-github-pages-action@master
         env:
-          AUTHOR: bishalchoudhurywork-cyber
+          AUTHOR: bishalchoudhury-2002
           BUILD_PATH: public
-          GITHUB_PAGE_NAME: bishalchoudhurywork-cyber.github.io
+          GITHUB_PAGE_NAME: bishalchoudhury-2002.github.io
           PA_TOKEN: #{{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}}
